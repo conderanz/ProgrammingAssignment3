@@ -1,6 +1,3 @@
-# Set working directory
-setwd("C:/Hernan/Kimberly/Data Science/Training/Coursera/Module 3/Course Project")
-
 #Read files
 X_test <- read.csv("UCI HAR Dataset/test/X_test.txt", sep = "", header = FALSE)
 X_train <- read.csv("UCI HAR Dataset/train/X_train.txt", sep = "", header = FALSE)
