@@ -20,8 +20,9 @@ How to execute:
 =========================================
 Process description:
 =========================================
-1) Read the files "/test/X_test.txt", "/train/X_train.txt" and "features.txt" from "UCI HAR Dataset.
-2) Rename column names from "X_test.txt" and "X_train.txt" using the names from "features.txt".
-3) Merge the 2 datasets.
-4) Keep only the columns related to "standard deviation" and "average" measures.
-5) Create another dataset with the average of each resulting measure in step 4.
+1) Read the "test", "train", "features" and "activity_labels" files from "UCI HAR Dataset.
+2) Populate Activity Name value in train/test label files.
+3) Combine data and label files for train and test datasets.
+4) Merge the 2 datasets.
+5) Keep only the columns related to "standard deviation" and "average" measures.
+6) Create another dataset with the average of each resulting measure from step 4 by Activity Name.
