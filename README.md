@@ -1,23 +1,17 @@
 # ProgrammingAssignment3
 Repository for Programming Assignment 3 for R Programming on Coursera
 
-=========================================
-This repository includes the following files:
-=========================================
+# This repository includes the following files:
 - 'README.md'
 - 'run_analysis.R': R script that solves the assignment.
 - 'CodeBook.md': Code book for the assignment.
 
-=========================================
-How to execute:
-=========================================
+# How to execute:
 1) Set your working directory.
     Example: setwd("C:/Hernan/Kimberly/Data Science/Training/Coursera/Module 3/Course Project")
 2) Run the code: source("run_analysis.R")
 
-=========================================
-Process description:
-=========================================
+# Process description:
 1) Download the source data from the following link and unzip it into your working directory: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 2) Set your working directory.
 3) Read the following files:
