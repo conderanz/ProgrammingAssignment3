@@ -7,9 +7,9 @@ date: 11-March-2020
 ## Project Description
 The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis.
 
-##Study design and data processing
+## Study design and data processing
 
-###Collection of the raw data
+### Collection of the raw data
 Human Activity Recognition Using Smartphones Dataset.
 
 The dataset contains the results of experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data.
@@ -85,9 +85,9 @@ tBodyGyroJerkMean
 
 The complete list of variables of each feature vector is available in 'features.txt'
 
-##Creating the tidy datafile
+## Creating the tidy datafile
 
-###Guide to create the tidy data file
+### Guide to create the tidy data file
 1) Download the source data from the following link and unzip it into your working directory: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 2) Set your working directory.
 3) Read the following files:
@@ -106,7 +106,7 @@ The complete list of variables of each feature vector is available in 'features.
 8) Select the measure columns that belongs to "standard deviation" and "average".
 9) Create another dataset with the average of each resulting measure from step 8 by Subject and Activity Name.
 
-##Description of the variables in the Averages.txt file
+## Description of the variables in the Averages.txt file
  - Summary of the data: 
 	The file contains the average of each "standard deviation" and "average" measures by Subject and Activity Name.
  - Dimensions of the dataset: 
